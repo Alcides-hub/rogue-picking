@@ -1,0 +1,157 @@
+/********* BASE STYLES *********/
+
+body {
+    font-family:'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 399px;
+    height: 200px;
+    float: left;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;    
+    padding: 10px;
+}
+
+/********* HEADER *********/
+
+header h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 23px;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+nav {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+
+}
+
+
+/********* WELCOME *********/
+
+#welcome {
+    margin: 25px;
+}
+
+#welcome h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+#welcome p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/********* MISC *********/
+
+#misc {
+    text-align: left;
+    
+}
+
+#misc h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+#misc p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0px 10px;
+}
+
+#misc #sp-line-height {
+    line-height: 24px;
+}
+
+#misc ul {
+    list-style: none;
+    color: #77a466;
+    padding: 0px 50px;
+}
+
+#misc ul li {
+    padding: 0px 0px 20px 0px;
+}
+
+#misc :first-child h4 {
+    padding-left: 40px; 
+}
+
+#misc :last-child {
+    border-right: none;
+}
+
+
+
+/********* FOOTER *********/
+footer {
+    height: 50px;
+    border-top: 1px solid grey;
+}
+
+
+footer h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    border-top: 1px solid grey;
+    clear: both;
+    margin: 0 auto;
+}
+
+footer #special-font {
+    font-family: 'Galada', cursive;
+    color: #77a466;
+    text-transform: lowercase;
+}
